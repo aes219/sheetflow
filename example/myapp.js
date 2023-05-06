@@ -1,4 +1,4 @@
-const SheetFlow = require('../index');
+const SheetFlow = require("sheetflow");
 
 const options = {
   sheet: {
