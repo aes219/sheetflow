@@ -1,0 +1,29 @@
+{
+  "name": "sheetflow",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "lightweight module to easily use google sheets as a database",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rungtavaidik/sheetflow.git"
+  },
+  "keywords": [
+    "google-sheets",
+    "database"
+  ],
+  "author": "Vaidik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rungtavaidik/sheetflow/issues"
+  },
+  "homepage": "https://github.com/rungtavaidik/sheetflow#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "google-auth-library": "^8.8.0",
+    "googleapis": "^118.0.0"
+  }
+}
