@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/rungtavaidik/sheetflow#readme",
   "dependencies": {
-    "chalk": "^5.2.0",
     "google-auth-library": "^8.8.0",
     "googleapis": "^118.0.0",
     "sheetflow": "^1.0.0"

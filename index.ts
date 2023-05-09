@@ -1,4 +1,3 @@
-import chalk from "chalk";
 import connect from "./class/authorize";
 import read from "./class/read";
 import setValues from "./class/write";
@@ -17,18 +16,18 @@ class SheetFlow {
         this.sheetID = options.sheet.id;
         this.range = options.sheet.range;
         if (!this.sheetName)
-            console.log(`${ chalk.red('SheetFlow Err: A sheet name must be specified in the constructor options') }`);
+            console.log('SheetFlow Err: A sheet name must be specified in the constructor options');
         if (!this.sheetID)
-            console.log(`${ chalk.red('SheetFlow Err: A sheet id must be specified in the constructor options') }`);
+            console.log('SheetFlow Err: A sheet id must be specified in the constructor options');
         if (!this.range)
-            console.log(`${ chalk.red('SheetFlow Err: A sheet range must be specified in the constructor options') }`);
+            console.log('SheetFlow Err: A sheet range must be specified in the constructor options');
         if (!this.keyFile)
-            console.log(`${ chalk.red('SheetFlow Err: keyFile File must be specified in the constructor options') }`);
+            console.log('SheetFlow Err: keyFile File must be specified in the constructor options');
     }
 
     async authorize(): Promise<void> {
         this.auth = await connect(this.keyFile);
-        console.log(`${chalk.green('SheetFlow: Authorized with googleapis')}`);
+        console.log('SheetFlow: Authorized with googleapis');
     }
 
     read(id: string, key: string): void {
