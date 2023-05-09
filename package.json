@@ -1,7 +1,7 @@
 {
   "name": "sheetflow",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "lightweight module to easily use google sheets as a database",
   "main": "index.ts",
   "scripts": {
