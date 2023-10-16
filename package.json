@@ -1,0 +1,13 @@
+{
+  "name": "sheetflow",
+  "version": "2.0.0",
+  "description": "Use spreadsheets as a database easily",
+  "main": "index.js",
+  "repository": "https://github.com/aestrus219/sheetflow",
+  "author": "Vaidik",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4.0.0",
+    "googleapis": "^127.0.0"
+  }
+}
